@@ -1,0 +1,162 @@
+body {
+    background: #078219;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+#dealerRow{
+    text-align: center;
+    display: none;
+}
+#playerRow{
+    text-align: center;
+    margin-top: 200px;
+    display: none;
+    
+}
+
+/*Cards Style*/
+.card {
+    background: white;
+    width: 120px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+}
+.number{
+    position: absolute;
+    font-size: 40px;
+    top: 3px;
+    left: 5px;
+}
+.figure{
+    position: absolute;
+    top: 80px;
+    left: 40px;
+}
+
+/*Bets*/
+.bets{
+    position: absolute;
+    text-align: center;
+    color: white;
+    
+}
+.fb{
+    top: 550px;
+    left: 35%;
+    transform: translate(-50%, -50%); 
+}
+.sb{
+    top: 550px;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+.tb{
+    top: 550px;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+.frb{
+    position: absolute;
+    top: 550px;
+    left: 65%;
+    transform: translate(-50%, -50%); 
+}
+.yb{
+    position: absolute;
+    top: 360px;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    display: none;
+}
+
+.bet1T{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+
+
+
+/*Buttons*/
+#deal{
+    position: absolute;
+    top: 650px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+
+}
+#hit{
+    position: absolute;
+    top: 685px;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    display: none;
+}
+#stand{
+    position: absolute;
+    top: 685px;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    display: none;
+}
+
+/*money*/
+#moneyS{
+    position: absolute;
+    top: 650px;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background: #8ee637;
+    display: inline-block;
+    padding: 10px;
+    border: solid 2px #ecf22e;
+    border-radius: 20px;  
+}
+
+/*Amount*/
+#playerAmount{
+    height: 20px;
+    width: 40px;
+    padding: 10px;
+    background: gray;;
+    border: solid 2px black;
+    position: absolute;
+    top: 390px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    text-align: center;
+
+}
+#dealerAmount{
+    height: 20px;
+    width: 40px;
+    padding: 10px;
+    background: gray;
+    border: solid 2px black;
+    position: absolute;
+    top: 260px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    text-align: center;
+}
+
+
+
